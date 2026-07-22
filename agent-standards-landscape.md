@@ -409,6 +409,12 @@ This category is defined by architectural role: transport substrate specificatio
 - [draft-stone-vcap](https://datatracker.ietf.org/doc/draft-stone-vcap/) — VCAP: Verified Commerce for Agent Protocols.
 - [draft-stone-vcap-ap2-binding](https://datatracker.ietf.org/doc/draft-stone-vcap-ap2-binding/) — VCAP-AP2 Binding: verified commerce settlement for the Agent Payments Protocol.
 - WEBBOTAUTH is the closest chartered dependency (agent verification for commerce flows).
+- [draft-skyfire-oauth-kyapay-token Defines](https://datatracker.ietf.org/doc/draft-skyfire-oauth-kyapay-token/) KYAPay Token
+- [draft-skyfire-oauth-using-kyapay-tokens](https://datatracker.ietf.org/doc/draft-skyfire-oauth-using-kyapay-tokens/) (with Akamai) Overview on how to use KYAPay tokens
+- [draft-skyfire-oauth-kyapay-token-exchange](https://datatracker.ietf.org/doc/draft-skyfire-oauth-kyapay-token-exchange/) (with Okta and Ory) Describes exchanging KYAPay token for an OAuth access token (e.g., for MCP)
+- [draft-skyfire-oauth-amr-values](https://datatracker.ietf.org/doc/draft-skyfire-oauth-amr-values/) (with Akamai and Experian) Defines additional Authentication Method Reference (“amr”) claim values
+- [draft-skyfire-oauth-id-verification](https://datatracker.ietf.org/doc/draft-skyfire-oauth-id-verification/) (with Akamai and Experian) Defines Identity Verification Methods claim and values
+- [draft-skyfire-oauth-aml-methods](https://datatracker.ietf.org/doc/draft-skyfire-oauth-aml-methods/) (with Experian) Defines Anti-Money Laundering Methods claim and value
 
 **External protocols and industry**
 
