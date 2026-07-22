@@ -132,6 +132,7 @@ All Internet-Draft references link to the Datatracker document page and will res
 - [draft-song-anp-ans](https://datatracker.ietf.org/doc/draft-song-anp-ans/) (Agent Name System) and [draft-song-anp-adp](https://datatracker.ietf.org/doc/draft-song-anp-adp/) (Agent Description Protocol) — naming and description and discovery members of the ANP suite; agent:// URIs mapped to cryptographic peer identities with DHT and GossipSub dissemination.
 - [draft-vandemeent-ains-discovery](https://datatracker.ietf.org/doc/draft-vandemeent-ains-discovery/) — AINS: AInternet Name Service; agent discovery and trust resolution protocol.
 - [draft-ye-problems-and-requirements-of-dns-for-ioa](https://datatracker.ietf.org/doc/draft-ye-problems-and-requirements-of-dns-for-ioa/) — problem statement and requirements analysis of DNS for Internet of Agents.
+- [draft-seethiraju-dawn-dan](https://datatracker.ietf.org/doc/draft-seethiraju-dawn-dan/) — DNS-Based Agent Naming (DAN): AIDISCA and AIINDEX Resource Records for AI Agent Discovery.
 
 **External protocols and industry**
 
