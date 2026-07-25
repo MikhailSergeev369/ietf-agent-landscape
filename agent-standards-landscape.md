@@ -1,6 +1,7 @@
 # IETF AI Agent Standards Landscape
 
 **Author**: Chris Hood, <chris@chrishood.com>, <chris@nomotic.ai>
+**Contributors**: See below
 **Version**: v.01 - 2026-07-19 (based on IETF Datatracker, mailing lists, BoF schedules for IETF 126 Vienna, and cross-referenced drafts)
 **Purpose**: Living document to track venues and work items for AI agent and agentic standards.
 
@@ -40,7 +41,7 @@ All Internet-Draft references link to the Datatracker document page and will res
 - [draft-aap-oauth-profile](https://datatracker.ietf.org/doc/draft-aap-oauth-profile/) — Agent Authorization Profile for OAuth 2.0.
 - [draft-abbey-scim-agent-extension](https://datatracker.ietf.org/doc/draft-abbey-scim-agent-extension/) — SCIM "Agent" resource type and schemas for provisioning and deprovisioning agents and agentic applications across domains.
 - [draft-aip-agent-identity-protocol](https://datatracker.ietf.org/doc/draft-aip-agent-identity-protocol/) — Agent Identity Protocol: agentic authentication and authorized policy enforcement.
-- [draft-araut-oauth-transaction-tokens-for-agents](https://datatracker.ietf.org/doc/draft-araut-oauth-transaction-tokens-for-agents/) — extension to OAuth Transaction Tokens defining the agentic_ctx claim for agent context propagation; two-layer model separating immutable identity context (sub, act) from mutable agent-chain context (current agent, originator, assurance level) updated via the Txn-Token replacement flow at each agent transition.
+- [draft-araut-oauth-transaction-tokens-for-agents](https://datatracker.ietf.org/doc/draft-araut-oauth-transaction-tokens-for-agents/) — extension to OAuth Transaction Tokens defining the agentic_ctx claim for agent context propagation.
 - [draft-barney-caam](https://datatracker.ietf.org/doc/draft-barney-caam/) — Contextual Agent Authorization Mesh.
 - [draft-beyer-agent-identity-architecture](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-architecture/) — architectural model for human-anchored agent identity.
 - [draft-beyer-agent-identity-problem-statement](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-problem-statement/) — problem statement for human-anchored identity.
@@ -129,7 +130,7 @@ All Internet-Draft references link to the Datatracker document page and will res
 - [draft-nemethi-aid-agent-identity-discovery](https://datatracker.ietf.org/doc/draft-nemethi-aid-agent-identity-discovery/) — DNS TXT records under _agent for agent identity discovery.
 - [draft-ni-agent-entity-discovery](https://datatracker.ietf.org/doc/draft-ni-agent-entity-discovery/) — DNS and DANE-style entity-level discovery with credential bindings.
 - [draft-pioli-agent-discovery](https://datatracker.ietf.org/doc/draft-pioli-agent-discovery/) — ARDP: Agent Registration and Discovery Protocol.
-- [draft-raskar-agentic-web-federated-resolution](https://datatracker.ietf.org/doc/draft-raskar-agentic-web-federated-resolution/) — registry-assisted discovery for agents and workloads without a usable DNS Discovery Anchor; a NandaIndex registry binds a stable Subject Identity to a subject-authorized terminal object (A2A Agent Card, MCP server descriptor, workload descriptor, subject-owned AI Catalog, or subject-authorized gateway) with authority, freshness, and revocation information. DNS-anchored discovery remains direct when an authoritative endpoint is already known.
+- [draft-raskar-agentic-web-federated-resolution](https://datatracker.ietf.org/doc/draft-raskar-agentic-web-federated-resolution/) — registry-assisted discovery for agents and workloads without a usable DNS Discovery Anchor.
 - [draft-rehfeld-apix-core](https://datatracker.ietf.org/doc/draft-rehfeld-apix-core/) — APIX: HATEOAS-based machine-native service index for agents; governance model, three-dimensional trust model, APIX Manifest (APM), Index API; profile documents [draft-rehfeld-apix-services](https://datatracker.ietf.org/doc/draft-rehfeld-apix-services/) (web APIs and bots) and [draft-rehfeld-apix-iot](https://datatracker.ietf.org/doc/draft-rehfeld-apix-iot/) (IoT devices).
 - [draft-song-anp-ans](https://datatracker.ietf.org/doc/draft-song-anp-ans/) (Agent Name System) and [draft-song-anp-adp](https://datatracker.ietf.org/doc/draft-song-anp-adp/) (Agent Description Protocol) — naming and description and discovery members of the ANP suite; agent:// URIs mapped to cryptographic peer identities with DHT and GossipSub dissemination.
 - [draft-vandemeent-ains-discovery](https://datatracker.ietf.org/doc/draft-vandemeent-ains-discovery/) — AINS: AInternet Name Service; agent discovery and trust resolution protocol.
@@ -160,7 +161,7 @@ All Internet-Draft references link to the Datatracker document page and will res
 - [draft-fu-nmop-agent-communication-framework](https://datatracker.ietf.org/doc/draft-fu-nmop-agent-communication-framework/) — agent communication framework for Network AIOps.
 - [draft-han-agent-comm-enterprise](https://datatracker.ietf.org/doc/draft-han-agent-comm-enterprise/) — considerations for AI agent communication and networking in enterprise.
 - [draft-han-rtgwg-agent-gateway-intercomm-framework](https://datatracker.ietf.org/doc/draft-han-rtgwg-agent-gateway-intercomm-framework/) — agent gateway intercommunication framework.
-- [draft-hood-independent-agtp](https://datatracker.ietf.org/doc/draft-hood-independent-agtp/), [draft-hood-agtp-api](https://datatracker.ietf.org/doc/draft-hood-agtp-api/), [draft-hood-agtp-session](https://datatracker.ietf.org/doc/draft-hood-agtp-session/), [draft-hood-agtp-communication](https://datatracker.ietf.org/doc/draft-hood-agtp-communication/) — AGTP core protocol suite: agent-to-agent transport substrate on port 4480; Runtime Contract Negotiation Substrate (RCNS); semantic methods including QUERY, DISCOVER, DELEGATE, EXECUTE, COLLABORATE, PURCHASE; session protocol with continuity across network interruptions; bilateral multi-modal communication.
+- [draft-hood-independent-agtp](https://datatracker.ietf.org/doc/draft-hood-independent-agtp/), [draft-hood-agtp-api](https://datatracker.ietf.org/doc/draft-hood-agtp-api/), [draft-hood-agtp-session](https://datatracker.ietf.org/doc/draft-hood-agtp-session/), [draft-hood-agtp-communication](https://datatracker.ietf.org/doc/draft-hood-agtp-communication/) — Runtime Contract Negotiation Substrate (RCNS); semantic methods including QUERY, DISCOVER, DELEGATE, EXECUTE, COLLABORATE, PURCHASE.
 - [draft-hw-protocol-agent](https://datatracker.ietf.org/doc/draft-hw-protocol-agent/) — AI agent protocols for multi-modality.
 - [draft-jeskey-anml](https://datatracker.ietf.org/doc/draft-jeskey-anml/) — ANML: Agent Native Messaging Language; semantic vocabulary and message envelope for agent-to-agent messaging.
 - [draft-jesske-ai-enablement-interface](https://datatracker.ietf.org/doc/draft-jesske-ai-enablement-interface/) — AI enablement interface between telco communication platforms and AI service providers.
@@ -231,6 +232,7 @@ All Internet-Draft references link to the Datatracker document page and will res
 **IETF venues**
 
 - agent2agent and CATALIST (DMSC presented in the CATALIST BoF at IETF 125).
+- agentproto (new mailing list as of July 2026 to discuss agent based session layer IETF 126).
 - DMSC BoF (non-WG-forming; 22 July 2026, IETF 126) — AI Agent Gateway-mediated collaboration: capability exposure, request forwarding, coordination, synchronization, policy control, observability, secure communication. A GitHub org (ietf-dmsc) tracks meeting materials.
 - Mailing lists — <dmsc@ietf.org> exists (archive at mailarchive.ietf.org/arch/browse/dmsc/); IETF 126 BoF announcement additionally directs discussion to the DAWN list (<dawn@ietf.org>).
 
@@ -587,7 +589,6 @@ This category captures work that binds agent protocols to specific underlying tr
 
 Reviews, corrections, and additions to this document have been provided by:
 
-- Iman Schrock
-- Enrique Somoza
+- Bradd McBrearty, Chad Stephens, Scott Lipsig, Iman Schrock, Enrique Somoza, Vedh Krishnan, Ramesh Raskar, Kaliya Young
 
 Additional contributions and corrections are welcome. Open an issue or pull request on the repository, or contact the author.
