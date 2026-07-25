@@ -40,6 +40,7 @@ All Internet-Draft references link to the Datatracker document page and will res
 - [draft-aap-oauth-profile](https://datatracker.ietf.org/doc/draft-aap-oauth-profile/) — Agent Authorization Profile for OAuth 2.0.
 - [draft-abbey-scim-agent-extension](https://datatracker.ietf.org/doc/draft-abbey-scim-agent-extension/) — SCIM "Agent" resource type and schemas for provisioning and deprovisioning agents and agentic applications across domains.
 - [draft-aip-agent-identity-protocol](https://datatracker.ietf.org/doc/draft-aip-agent-identity-protocol/) — Agent Identity Protocol: agentic authentication and authorized policy enforcement.
+- [draft-araut-oauth-transaction-tokens-for-agents](https://datatracker.ietf.org/doc/draft-araut-oauth-transaction-tokens-for-agents/) — extension to OAuth Transaction Tokens defining the agentic_ctx claim for agent context propagation; two-layer model separating immutable identity context (sub, act) from mutable agent-chain context (current agent, originator, assurance level) updated via the Txn-Token replacement flow at each agent transition.
 - [draft-barney-caam](https://datatracker.ietf.org/doc/draft-barney-caam/) — Contextual Agent Authorization Mesh.
 - [draft-beyer-agent-identity-architecture](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-architecture/) — architectural model for human-anchored agent identity.
 - [draft-beyer-agent-identity-problem-statement](https://datatracker.ietf.org/doc/draft-beyer-agent-identity-problem-statement/) — problem statement for human-anchored identity.
